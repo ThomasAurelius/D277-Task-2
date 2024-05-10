@@ -1,0 +1,227 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   background-color: #7a7878;
+   font-family: Georgia, serif;
+}
+
+a:hover {
+   font-weight: bold;
+   cursor: pointer;
+}
+
+.article {
+   position: relative;
+   height: 100vh;
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #7a7878;
+   color: white;
+   text-align: center;
+   padding: 10px;
+}
+
+nav > ul {
+   list-style-type: none;
+   display: flex;
+   justify-content: space-around;
+   background-color: #7a7878;
+   color: white;
+   padding: 10px;
+}
+
+nav > ul > li {
+   padding: 10px;
+}  
+
+#populous {
+   font-size: 2.5rem;
+}
+
+article {
+   margin: 20px;
+}
+
+article > h2 {
+   text-align: center;
+   font-size: 2.5rem;
+   margin: 20px;
+}
+
+article > p {
+   text-align: center;
+   font-size: 1.5rem;
+   margin: 20px;
+}
+
+article > ul {
+   list-style-type: none;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   background-color: #333;
+   color: white;
+   padding: 10px;
+}
+
+.links {
+   position: absolute;
+   bottom: 300px;
+   left: 0;
+   width: 100%;
+}
+
+.links > h2 {
+   padding-top: 20px;
+   font-size: 2.5rem;
+   text-align: center;
+}
+
+.links > ul  {
+   list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      background-color: #333;
+      color: white;
+      padding: 10px;
+}
+
+.links > ul > li {
+   text-decoration: none;
+   font-size: 1.5rem;
+   text-align: center;
+}
+
+article > ul > li {
+   text-decoration: none;
+   font-size: 1.5rem;
+   text-align: center;
+}
+
+table {
+   width: 95%;
+   border-collapse: collapse;
+   margin: 0 auto;
+   border: 2px solid white;
+}
+
+th {
+   font-size: 2rem;
+   border: 1.5px solid white;}
+
+td {
+   border: 2px solid white;
+   font-size: 1.4rem;
+   text-align: center;
+   
+}
+
+section {
+   display: flex;
+}
+
+article {
+   width: 80%;
+}
+
+aside {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   gap: 15px;
+   border: 1px solid white;
+   width: 20%;
+   background-color: #333;
+   color: white;
+   padding: 10px;
+}
+
+.aside1 {
+   width: 100%;
+   border: 1px solid white;
+}
+
+.aside2 {
+   width: 100%;
+   border: 1px solid white;
+}
+
+.aside3 {
+   width: 100%;
+   border: 1px solid white;
+}
+.aside3 > img {
+   width: 100%;
+}
+
+form {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   gap: 10px;
+   padding: 10px;
+}
+
+input, textarea {
+   background-color: white;
+   width: 50%;
+}
+
+.formlabel {
+   font-size: 1.5rem;
+   padding-top: 20px
+}
+
+.contact {
+   margin:0 auto;
+   margin-top:20px;
+   border: 1px solid white;
+   width: 35%;
+}
+
+.contact h2 {
+   text-align: center;
+   font-size: 2.5rem;
+   margin: 20px;
+}
+
+footer {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   background-color: #7a7878;
+   color: white;
+   text-align: center;
+   padding: 10px;
+}
+
+.image {
+   float: right;
+}
+
+.images {
+   width: 50%;
+   margin: 0 auto;
+   margin-top: 20px;
+}
+
+.airports {
+   font-size: 1.3rem;
+   width: 30%;
+   text-align: center;
+
+   margin: 25px auto;
+}
+
+.airports > h3 {
+   padding-bottom: 15px;
+}
